@@ -33,13 +33,16 @@ body{
     margin-right: 20px;
 }
 
+.link:hover{
+    color: #22A39F;
+}
+
 .main{
     display: flex;
     justify-content: space-between;
 }
 
 .main-text{
-    max-width: 500px;
     margin-top: 150px;
 }
 
@@ -83,6 +86,14 @@ body{
     margin-top: 20px;
 }
 
+.card img{
+    transition-duration: 0.2s;
+}
+
+.card img:hover{
+    transform: scale(1.1, 1.1);
+}
+
 .contacts{
     height: 700px;
 }
@@ -97,6 +108,14 @@ body{
     width: 500px;
     display: flex;
     justify-content: space-between;
+}
+
+.links img{
+    transition-duration: 0.2s;
+}
+
+.links img:hover{
+    transform: scale(1.1, 1.1);
 }
 
 .footer{
