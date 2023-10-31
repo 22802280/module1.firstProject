@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Nunito&family=Russo+One&family=Unbounded:wght@300;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f8f6ee
+}
+
+.header{
+    background-color: #434242;
+}
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+}
+
+.header-container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    color: #f8f6ee;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text{
+    max-width: 500px;
+    margin-top: 150px;
+}
+
+.title{
+    color: #222222;
+    font-size: 70px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.subtitle{
+    color: #434242;
+    font-size: 35px;
+}
+
+.subtitle b{
+    color: #22A39F;
+}
+
+.main-img{
+    margin-top: 50px;
+    height: 700px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card{
+    border: 1px solid #222222;
+    border-radius: 20px;
+    padding: 30px 20px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+
+.card p{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.contacts{
+    height: 700px;
+}
+
+.contacts h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.links{
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: #434242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f6ee;
+    height: 100px;
+    font-size: 24px;
+}
